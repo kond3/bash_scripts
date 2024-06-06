@@ -33,3 +33,5 @@ echo "exit 0" >> $1
 
 chmod 744 $1
 nano $1
+
+exit 0
