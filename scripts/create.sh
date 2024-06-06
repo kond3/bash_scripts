@@ -10,7 +10,7 @@ echo "#!/bin/bash" >> $1
 echo "" >> $1
 echo "# Author: $(whoami)" >> $1
 echo "# Date: $(date +%d/%m/%Y)" >> $1
-echo "# Last modified: $(date +%d/%m/%Y\ %H:%M:%S)" >> $1
+echo "# Last modified: $(date +%m/%d/%Y\ %H:%M:%S)" >> $1
 echo "" >> $1
 echo "# Description" >> $1
 echo "# " >> $1
