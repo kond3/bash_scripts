@@ -1,0 +1,38 @@
+export SCRIPTS=$HOME/Scripts
+
+# General
+alias c='shred -uz'
+alias x='chmod 744'
+alias a='nano ~/.bash_aliases'
+alias lla='ls -la'
+
+# APT
+alias update='sudo apt update'
+alias upgrade='sudo apt upgrade'
+alias i='sudo apt install'
+alias u='sudo apt remove --purge --autoremove'
+
+# Directories
+alias scripts='cd $SCRIPTS'
+
+# Scripting
+alias day-time='date +%d-%m-%Y_%H:%M:%S'
+alias day='date +%d/%m/%Y'
+alias create='$SCRIPTS/create.sh'
+alias modify='$SCRIPTS/modify.sh'
+alias m='$SCRIPTS/monitoring.sh'
+alias code_lines='$SCRIPTS/code_lines.sh'
+
+# Python
+alias p='usr/bin/python3'
+
+# Security
+alias mpg='pwgen -cnys1 -r \`\" 32'
+alias ck-ip='$SCRIPTS/chk.sh'
+
+# Bluetooth
+alias blton='sudo systemctl start bluetooth.service'
+alias bltoff='sudo systemctl stop bluetooth.service'
+
+# Primapry prompt
+alias nodir='export PS1="$USER ⚽ ";clear'
