@@ -18,7 +18,7 @@ for i in {1..$1};do
 
 if [[ "$1" = "" ]];then
   echo -e "\nUsage: \t code_lines <script.sh>\n"
-  exit 0
+  exit 1
 fi
 
 nl 1
