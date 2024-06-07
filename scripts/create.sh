@@ -4,7 +4,7 @@
 # Simple BASH script to insert the shabang and a default description for scripts.
 
 # Usage
-# create.sh <file-to-describe>
+# create.sh <filename>
 
 if [[ $1 = "" ]];then
   echo -e "Usage: \t create <filename>\n"
