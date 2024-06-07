@@ -6,6 +6,10 @@
 # Usage
 # create.sh <file-to-describe>
 
+if [[ $1 = "" ]];then
+  echo -e "Usage: \t create <filename>\n"
+fi
+
 echo "#!/bin/bash" >> $1
 echo "" >> $1
 echo "# Author: $(whoami)" >> $1
