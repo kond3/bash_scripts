@@ -28,7 +28,7 @@ alias p='usr/bin/python3'
 
 # Security
 alias mpg='pwgen -cnys1 -r \`\" 32'
-alias ck-ip='$SCRIPTS/chk.sh'
+alias ck-ip='$SCRIPTS/ck-ip.sh'
 
 # Bluetooth
 alias blton='sudo systemctl start bluetooth.service'
