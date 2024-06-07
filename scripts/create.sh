@@ -8,6 +8,7 @@
 
 if [[ $1 = "" ]];then
   echo -e "Usage: \t create <filename>\n"
+  exit 1
 fi
 
 echo "#!/bin/bash" >> $1
