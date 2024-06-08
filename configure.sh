@@ -4,6 +4,9 @@ if ! [ -d $HOME/Scripts];then
   mkdir $HOME/Scripts
 fi
 
+chmod 744 ./scripts/*
+cp ./scripts/* $HOME/Scripts
+
 PS3="
 Where do you want to save your aliases? "
 
